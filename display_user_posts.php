@@ -1,7 +1,7 @@
 <?php
 function obtener_publicaciones_usuario_airtable() {
-    $api_key = 'patv59bjnbEGUFZG8.cd0546b6e89b9368307894b52c97ef81268d5253071ed72b4d94d955b441b576';
-    $url = 'https://api.airtable.com/v0/appzmB3zBmwWkhnkn/Posts';
+    $api_key = 'aqui va tu key si usas esta repo by Jesus Jimenez';
+    $url = 'https://api.airtable.com/v0/tu clave de posts/Posts';
 
     if (!is_user_logged_in()) {
         return 'No hay ningún usuario en sesión.';
